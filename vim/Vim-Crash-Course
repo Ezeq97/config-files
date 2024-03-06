@@ -1,0 +1,103 @@
+:q - Quit
+i - Insert Mode
+:w - Write Changes
+:wq - Write & Quit
+:q! - Quit Override
+Navigate: Arrow Keys
+Alternatives: h j k l
+a - Append Text
+I - I nsert (Before Line)
+A - Append (After Line)
+o - New Line Below
+O -New Line Above
+w - jump to Next Word
+b - Jump to Previous Word
+W - Next Word
+B - Previous Word
+r - Replace Letter
+R - Replace Mode
+cw - Change Word
+8w - Jump Eight Words
+c7w - Change Seven Words
+4j - Move Four Lines Down 
+4<Down Arrow> - Same
+c - Delete Rest of Line
+dw - Delete Word
+D - Delete Rest of line
+d4w - Delete Four Words
+dd - Delete Line
+cc - Change Line
+4dd - Delete Four Lines
+8cc - Change Eight Lines
+u - Undo
+CTRL + R - Redo
+5u - Undo Last Five Changes
+7 CTRL + R - Redo Seven Last Things
+ciw - Change Inner Word
+diw - Delete Inner Word
+ci) - change Inner Parentheses
+ci( - Change Inner Parentheses
+ci[ - Change Inner Brackets
+ci] - Change Inner Brackets
+ci} - Change Inner Brackets
+ci{ - Change Inner Brackets
+% - Jump to Brcket
+c% - Change Until Bracket
+gg- Beginning of File
+G - End of File
+17G - Go To Line 17
+:19 - Go To Line 19 
+$ - End of Line
+0 - Beginning of Line
+
+v - Visual Mode
+d - Delete
+c - Change
+y - Yanking (Copy)
+p - Paster After
+P - Paster Before
+yy - Yank line
+5yy - Yank Five Lines
+9p -  Paste Nine Times
+y5w - Yank Five Words
+yi) - Yank Inner Brackets
+yiw - Yank Inner Word
+
+SHIFT + v - Visual Line
+CTRL + v - Visual Block
+. - Repeat Last Operation
+zz - Center Selected Line
+
+> - Shift Right
+> - Shift Left
+= - Indent
+
+>> & << - Shift Line
+== - Indent Line
+
+gg=G - Indent Whole File
+ggdG - Delete Whole File
+
+/word - Serch For Word
+n - Next Occurrence
+N - Previous Occurrence
+
+# - Previous Token Occurrence
++ - Next Token Occurrence
+
+:s/old/new/g - Replace
+:%S/old/new/g - Replace Everywhere
+
+: set number - Line Numbers
+:set relativenumber - Rel. Numbers
+
+:colorscheme scheme - Select Theme
+
+
+:set tabstop=4 - tab Width to Four
+:set autoindent - Auto Indentation
+:set mouse=a - Activate Mouse
+:set mouse="" - Desactivate Mouse
+
+
+nvim .
